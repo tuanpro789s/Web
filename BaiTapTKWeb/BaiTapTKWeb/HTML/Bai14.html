@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible"
+			content="IE=edge">
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0">
+		<title>
+			Build a Survey Form using HTML and CSS
+		</title>
+		<style>
+			.container {
+			width: 300px;
+			height: 200px;
+			border: 1px solid black;
+			overflow-y: scroll;
+			}
+		</style>
+	</head>  
+	<body>
+		<!-- Create Form -->
+		<form id="form">
+			<!-- Details -->
+			<div class="form-control">
+				<label for="name" id="label-name">
+					Your age
+				</label>
+	
+				<!-- Input Type Text -->
+				<input type="text" id="name"
+					placeholder="Enter your age" />
+			</div>
+	
+			<div class="form-control">
+				<label for="role" id="label-role">
+					Your gender
+				</label>
+	
+				<!-- Dropdown options -->
+				<select name="role" id="role">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+				</select>
+			</div>
+	
+			<div class="form-control">
+				<label>
+					Check all names of people listed whom you have heard about:
+				</label>
+				<br>
+				<!-- Input Type Radio Button -->
+				<label for="recommed-1">
+					<input type="radio" id="recommed-1"
+						name="recommed">Marc Andreessen
+					</input>
+				</label>
+				<label for="recommed-2">
+					<input type="radio" id="recommed-2"
+						name="recommed">Lisa Schmeiser
+					</input>
+				</label>
+				<label for="recommed-3">
+					<input type="radio" id="recommed-3"
+						name="recommed">AI Gore
+					</input>
+				</label>
+				<label for="recommed-3">
+					<input type="radio" id="recommed-3"
+						name="recommed">Boutros Boutros-Ghali
+					</input>
+				</label>
+			</div>
+
+			<div class="form-control">
+				<label for="role" id="label-role">
+					What is your favorite Web browser ?
+				</label>
+	
+				<!-- Dropdown options -->
+				<select name="role" id="role">
+					<option value="vanilla">Netscape</option>
+					<option value="chocolate">Chocolate</option>
+					<option value="cherry garcia">
+						Cherry Garcia
+					</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+
+			<div class="form-control">
+				<label for="role" id="label-role">
+					Which of these ice cream flavors have you tried
+				</label>
+	
+				<!-- Dropdown options -->
+				<select name="role" id="role">
+					<option value="vanilla">Vanilla</option>
+					<option value="chocolate">Chocolate</option>
+					<option value="cherry garcia">
+						Cherry Garcia
+					</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+	
+			<div class="form-control">
+				<label for="name" id="label-name">
+					Guess the secret password
+				</label>
+	
+				<!-- Input Type Text -->
+				<input type="text" id="name"
+					placeholder="Enter your age" />
+			</div>
+
+			<p>
+            Do you have an informal nickname?
+            <input type = "radio" name = "Choose"> No
+            <input type = "radio" name = "Choose"> Yes, it is:
+            <input type = "text">
+        </p>
+
+        <p>
+            Enter your personal motto:
+            <br>
+                <select>
+                    <option>
+						All is well that ends well.
+						<br>
+					</option>
+                </select>
+            </br>
+        </p>
+
+        <p>
+            When you are done with the above responses, please submit this information
+            by clic king on your current geographic location on this map:
+        </p>
+        <img src="https://funkywall.dk/wp-content/uploads/2019/11/wallstickers-verdenskort-sort.png">
+        <p>
+            <button type="Send" value="submit">
+				Send this survey
+			</button>
+
+            <button type="Cancel" value="submit">
+				Cancel this survey
+			</button>
+        </p>
+		</form>
+	</body>
+</html>
+    <a href="../index.html"><br>Về trang chủ</a>
+</body>
+</html>

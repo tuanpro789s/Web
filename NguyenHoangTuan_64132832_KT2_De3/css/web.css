@@ -1,0 +1,29 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+body {
+    background: url(../image/background.jpg) no-repeat;
+    background-size: cover;
+}
+.navbar-nav{
+    background: #00B050;
+}
+.logo {
+    width: 130px;
+}
+.nav-link{
+    color: #FFFF00;
+}
+
+.btna{
+    color: green;
+}
+.nav-link:hover{
+    color: #FFFF00;
+}
+footer{
+    background: #00B050;
+}

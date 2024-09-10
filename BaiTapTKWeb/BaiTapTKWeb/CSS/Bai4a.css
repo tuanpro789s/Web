@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body{
+    background: #e8dfd8;
+}
+
+header{
+    width: 100%;
+    height: 40vh;
+    padding: 3% 10% 1%;
+    float: left;
+}
+
+header nav{
+    width: 30%;
+    float: left;
+    font-size: 1.5rem;
+}
+
+header nav a{
+    display: block;
+    width: 60%;
+    margin: 2% auto;
+    padding: 1% 5%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover{
+    background: rgb(146, 146, 223);
+    color: yellow;
+    border-radius: 10px;
+}
+
+header section{
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding: 2%;
+    border: solid 2px;
+}
+
+header section img{
+    width: 22%;
+    float: left;
+}
+
+header section h1{
+    font-size: 5.5rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: -2.5%;
+}
+
+header section p{
+    font-size: 1.2rem;
+    width: 78%;
+    float: right;
+    padding-left: 4%;
+    margin-top: 3%;
+}
+
+main{
+    width: 100%;
+    height: 60vh;
+    padding: 5% 10%;
+    float: left;
+}
+
+main form{
+    width: 30%;
+    height: 100%;
+    padding-right: 1%;
+    font-size: 1.5rem;
+    float: left;
+}
+
+fieldset{
+    text-align: center;
+    border: solid 2px brown;
+    border-radius: 10px;
+}
+
+fieldset legend{
+    text-align: center;
+    padding: 0 2%;
+}
+
+fieldset *{
+    margin: 5% 1%;
+}
+
+.in{
+    height: 30px;
+    border-radius: 10px;
+}
+
+.out{
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: yellow;
+    background: rgb(146, 146, 225);
+    font-size: 1.1rem;
+}
+
+main section{
+    width: 51%;
+    height: 100%;
+    float: left;
+    padding: 0 3%;
+}
+
+main section h1{
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin-top: -3%;
+}
+
+main section ul{
+    padding: 5%;
+    font-size: 1.1rem;
+}
+
+#work{
+    margin-top: 5%;
+}
+
+main section img{
+    width: 25%;
+    height: 22%;
+    margin-right: 3%;
+}
+
+main img{
+    width: 19%;
+}

@@ -1,0 +1,32 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+body{
+    background-color: rgb(252, 244, 210) no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 70px;
+}
+
+.nav-link:hover{
+    color: #3233FD;
+    background: #FFC000;
+}
+.ida{
+    background-color: rgb(224, 224, 19) ;
+}
+footer{
+    background: #FFC000;
+}
+div h2{
+    background: #FFC000;
+}
+.banner img {
+    width: 100%;
+    height: auto; 
+}

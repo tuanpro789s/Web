@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body{
+    background: url(../Audio/bg.png);
+}
+
+#show{
+    width: 70%;
+    height: 90vh;
+    background: white;
+    margin: 2vh auto;
+}
+
+header{
+    width: 100%;
+    height: 20vh;
+    background: url(../Audio/header_bg.png);
+    float:left;
+}
+
+header h1{
+    color: red;
+    text-align: center;
+    padding-top: 7vh;
+}
+
+header form{
+    color: blue;
+    text-align: right;
+    padding-top: 3vh;
+    padding-right: 1%;
+}
+
+nav{
+    width: 18%;
+    height: 60vh;
+    background: yellow;
+    float: left;
+}
+
+nav a{
+    display: block;
+    padding: 2vh;
+    font-weight: 900;
+    text-decoration: none;
+    color: blue;
+    border-bottom: solid 2px blue;
+}
+
+nav a:hover{
+    background: brown;
+    color: yellow;
+}
+
+main{
+    width: 62%;
+    height: 60vh;
+    float: left;
+}
+
+main div{
+    width: 30%;
+    height: 40%;
+    padding: 3%;
+    text-align: center;
+}
+
+main div img{
+    width: 60%;
+    padding: 2%;
+}
+
+main div input{
+    color: red;
+    margin-top: 10%;
+    padding: 2% 15%;
+    float:left;
+}
+
+aside{
+    width: 20%;
+    height: 60vh;
+    background: lightgray;
+    float: right;
+}
+
+form{
+    padding: 5%;
+}
+
+fieldset{
+    text-align: center;
+    padding: 5%;
+}
+
+fieldset img{
+    width: 50%;
+    padding: 4vh 0;
+}
+
+fieldset legend{
+    font-weight: 900;
+    color: brown;
+}
+
+fieldset input{
+    padding: 2%;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background: url(../Audio/footer_bg.png);
+    float: left;
+    text-align: center;
+    font-weight: 900;
+    color: yellow;
+    padding-top: 3vh;
+}
